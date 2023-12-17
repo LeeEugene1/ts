@@ -12,7 +12,7 @@ interface Developer extends Person {
 }
 const person:Person = {
     name:'Lee',
-    age:20,
+    // age:20,
 }
 const expert:Developer = {
     name:'kim',
@@ -31,7 +31,6 @@ class Circle implements Shape{//implements: 조건에 부합한다.
     // constructor(radius:number){
     //     this.radius = radius
     // }
-
 
     constructor(public radius:number){//밖에서 radius조회가능
     }
